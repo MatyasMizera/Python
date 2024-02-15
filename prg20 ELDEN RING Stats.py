@@ -1,0 +1,31 @@
+#V ELDEN RINGU je maximální level 713, ale já jsem k tomu přidal body se kterými už postava začíná na levelu 1.
+import random
+a = (random.randint(1, 99))
+b = (random.randint(1, 99))
+c = (random.randint(1, 99))
+d = (random.randint(1, 99))
+e = (random.randint(1, 99))
+f = (random.randint(1, 99))
+g = (random.randint(1, 99))
+h = (random.randint(1, 99))
+n = a + b + c + d + e + f + g + h
+while n > 792:
+    a = (random.randint(1, 99))
+    b = (random.randint(1, 99))
+    c = (random.randint(1, 99))
+    d = (random.randint(1, 99))
+    e = (random.randint(1, 99))
+    f = (random.randint(1, 99))
+    g = (random.randint(1, 99))
+    h = (random.randint(1, 99))
+else:
+    print("level:", n)
+    print("Attribute Points:")
+    print("Vigor", a)
+    print("Mind", b)
+    print("Endurance", c)
+    print("Strength", d)
+    print("Dexeterity", e)
+    print("Itelligence", f)
+    print("Faith", g)
+    print("Arcane", h)
