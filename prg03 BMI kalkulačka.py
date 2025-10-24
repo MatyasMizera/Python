@@ -1,5 +1,5 @@
-vyska = float(input("Zadej výšku v cm: "))
-vaha = float(input("Zadej váhu v kg: "))
+vyska = float(input("Zadej výšku v cm:"))
+vaha = float(input("Zadej váhu v kg:"))
 
 vyska = vyska / 100
 bmi = vaha / (vyska * vyska)
@@ -20,4 +20,5 @@ elif bmi > 39.9 and bmi < 100:
 print("BMI:",(bmi))
 
      
+
 
